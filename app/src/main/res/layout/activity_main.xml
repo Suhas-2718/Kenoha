@@ -20,7 +20,7 @@
         android:layout_marginTop="20dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome button"
@@ -28,6 +28,17 @@
         android:textSize="20sp"
         android:shadowColor="@color/black"
         android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Button"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:shadowColor="@color/black"
+        android:layout_below="@id/button1"
+        android:layout_centerHorizontal="true"/>
 
 
 </RelativeLayout>
