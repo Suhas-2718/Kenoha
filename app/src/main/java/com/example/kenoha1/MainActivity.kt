@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val Button = findViewById<Button>(R.id.button)
+        val Button = findViewById<Button>(R.id.button1)
 
         Button.setOnClickListener {
             Toast.makeText(this, "Hello User", Toast.LENGTH_SHORT).show()
