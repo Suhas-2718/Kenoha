@@ -4,28 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="@color/purple_200"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/main_activity_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to Kenoha!!"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome button"
+        android:text="Quick Assistance"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="20sp"
+        android:backgroundTint="@color/blue"
         android:shadowColor="@color/black"
         android:layout_centerInParent="true"/>
 
@@ -33,7 +25,9 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Emergency Button"
+        android:text="Emergency 📞"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/blue"
         android:textStyle="bold"
         android:textSize="20sp"
         android:shadowColor="@color/black"
